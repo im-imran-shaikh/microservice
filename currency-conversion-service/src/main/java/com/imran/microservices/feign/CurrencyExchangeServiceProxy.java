@@ -10,7 +10,7 @@ import com.imran.microservices.dto.CurrencyBeans;
 
 //@FeignClient(name = "currency-exchange-service", url = "localhost:8000")
 //@FeignClient(name = "currency-exchange-service")
-@FeignClient(name = "netflix-zuul-api-gateway-server")
+	@FeignClient(name = "netflix-zuul-api-gateway-server")
 @RibbonClient(name = "currency-exchange-service")
 public interface CurrencyExchangeServiceProxy
 {
